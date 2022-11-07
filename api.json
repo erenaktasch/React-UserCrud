@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Eren Aktaş",
+      "username": "radriderr",
+      "email": "erenaktasch@gmail.com",
+      "phone": "5398385605",
+      "website": "www.github.com/erenaktasch",
+      "id": 1
+    },
+    {
+      "name": "Eren Aktaş",
+      "username": "crazy_kangal",
+      "email": "crazy_kangal58@gmail.com",
+      "phone": "5398385605",
+      "website": "www.facebook.com",
+      "id": 2
+    },
+    {
+      "name": "Eren Aktaş",
+      "username": "eramcim",
+      "email": "erencenc@gmail.com",
+      "phone": "5398385605",
+      "website": "www.instagram.com",
+      "id": 3
+    }
+  ]
+}

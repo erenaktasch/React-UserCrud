@@ -1,38 +1,121 @@
-.App {
+body {
+  background-color: #eeeeee;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* NAVBAR CSS */
+.navbar1 {
+  height: 100px;
+  background-color: #1c658c;
+  color: #d8d2cb;
+}
+
+/* Home.js CSS */
+.title1 {
+  width: 100%;
+  height: 70px;
+  margin-top: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tools {
+  width: 100%;
+  height: 70px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchInput {
+  width: 65%;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.searchButton {
+  width: 100px;
+  height: 45px;
+  border: 2px solid #1c658c;
+  border-radius: 8px;
+}
+.searchButton:hover {
+  background-color: #1c658c;
+  color: white;
+}
+.button1 {
+  width: 200px;
+  height: 45px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 8px;
+  background-color: #1c658c;
+  color: white;
+}
+.button1:hover {
+  background-color: #398ab9;
+}
+.viewButton {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #1c658c;
+  color: white;
+}
+.viewButton:hover {
+  background-color: #30475e;
+  color: white;
+}
+.editButton {
+  width: 85px;
+  height: 40px;
+  border: 2px solid #30475e;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+.editButton:hover {
+  background-color: #30475e;
+  color: white;
+}
+.delButton {
+  width: 50px;
+  height: 40px;
+  border: 2px solid #f05454;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+.delButton:hover {
+  background-color: #f05454;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* adduser.js and edituser.js CSS */
+.containerAdd{
+  width: 40%;
+  height: 500px;
+  margin: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input1{
+  width: 80%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+}
+.closeButton {
+  width: auto;
+  height: 40px;
+  border: 2px solid #f05454;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+.closeButton:hover {
+  background-color: #f05454;
+  color: white;
+}
+.addButton {
+  width: auto;
+  height: 40px;
+  margin-left: 5px;
+  border: 2px solid #1c658c;
+  border-radius: 8px;
+}
+.addButton:hover {
+  background-color: #1c658c;
+  color: white;
 }
